@@ -185,7 +185,7 @@ def home():
 
 @app.post("/chat")
 def chat(request: ChatRequest):
-    resume_text=read_pdf(Path("Cynthia.pdf"))
+    resume_text=read_pdf(Path("resume.pdf"))
     resume=parse_resume(resume_text)
 
     return StreamingResponse(
@@ -200,4 +200,4 @@ def chat(request: ChatRequest):
 # backend run command
 # python -m uvicorn main:app --reload
 # or
-# ~
+# uv run --active python -m uvicorn main:app --reload
