@@ -382,7 +382,7 @@ export default function App() {
               </div>
 
               <span className="eyebrow">
-                YOUR PERSONAL RESUME ASSISTANT
+                 PERSONAL RESUME ASSISTANT
               </span>
 
               <h1>
