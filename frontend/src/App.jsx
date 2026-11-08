@@ -393,7 +393,7 @@ export default function App() {
 
               <p className="welcome-description">
                 Ask me about my skills, experience, projects, and
-                qualifications. Everything starts with your resume.
+                qualifications. Everything starts with resume.
               </p>
 
               <div className="suggestions">
